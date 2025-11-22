@@ -1,7 +1,7 @@
-# interestadmin - 企业级PHP后台管理系统
+# InterestAdmin - 企业级PHP后台管理系统
 
 ## 📋 项目描述
-interestadmin-php 是一个基于自主开发MVC框架的企业级PHP后台管理系统，采用现代化技术栈，具备高度可扩展性、安全性和可维护性。系统支持多数据库、模块化开发和插件生态，适用于各种规模的企业应用。
+InterestAdmin 是一个基于自主开发MVC框架的企业级PHP后台管理系统，采用现代化技术栈，具备高度可扩展性、安全性和可维护性。系统支持多数据库、模块化开发和插件生态，适用于各种规模的企业应用。
 
 ### 核心特性
 - 🔒 **企业级安全**：JWT+OAuth双认证，CSRF/XSS/SQL注入全面防护
@@ -20,7 +20,7 @@ interestadmin-php 是一个基于自主开发MVC框架的企业级PHP后台管�
 ## 🛠️ 技术栈
 
 ### 后端技术
-- **PHP 8.4**：充分利用JIT编译器、联合类型、命名参数等新特性（本地路径：D:\phpEnv\php\php-8.4，必须使用此版本）
+- **PHP 8.4**：充分利用JIT编译器、联合类型、命名参数等新特性
 - **数据库支持**：
   - MySQL 8.0（支持DDL原子化、秒加列等特性）
   - SQLite 3.35+
@@ -177,8 +177,8 @@ interestadmin-php 是一个基于自主开发MVC框架的企业级PHP后台管�
 #### Docker Compose 部署
 1. **克隆代码**：
    ```bash
-   git clone https://github.com/cnqvnet/interestadmin-php.git
-   cd interestadmin-php
+   git clone https://github.com/cnqvnet/interestadmin.git
+   cd interestadmin
    ```
 
 2. **配置环境变量**：
@@ -268,22 +268,5 @@ server {
 
 ## 📧 联系方式
 
-- 项目主页：https://github.com/cnqvnet/interestadmin-php
-- 问题反馈：https://github.com/cnqvnet/interestadmin-php/issues
-
-## 📝 更新日志
-
-### v0.1.0 (已完成)
-- 基础框架完成
-- 用户管理模块完成
-- 内容管理模块（文章、分类、标签）完成
-- 安全与认证系统（密码安全、CSRF防护、XSS过滤等）完成
-- 安全管理模块（安全加固、漏洞检测、SQL注入防护）完成
-- 测试与优化阶段完成（单元测试、功能测试、安全测试、性能优化）
-- 性能基准测试工具完成
-- 测试辅助工具完成
-
-### v1.0.0 (预计2026-02-04)
-- 初始正式版本发布
-- 包含全部核心功能模块
-- 支持多数据库、多语言、插件化架构
+- 项目主页：https://github.com/cnqvnet/interestadmin
+- 问题反馈：https://github.com/cnqvnet/interestadmin/issues
